@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#047857" />
+      <stop offset="100%" stop-color="#064e3b" />
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde047" />
+      <stop offset="100%" stop-color="#eab308" />
+    </linearGradient>
+  </defs>
+  <!-- Background Circle -->
+  <rect width="512" height="512" rx="128" fill="url(#bg)" />
+  
+  <!-- Outer Gold Ring -->
+  <circle cx="256" cy="256" r="210" fill="none" stroke="url(#gold)" stroke-width="8" stroke-dasharray="8 6" opacity="0.4" />
+  
+  <!-- Ballot Box & Vote Symbol -->
+  <g transform="translate(106, 110)">
+    <!-- Ballot Box -->
+    <path d="M40 130 L260 130 L280 270 L20 270 Z" fill="#0f291e" stroke="#34d399" stroke-width="6" stroke-linejoin="round" />
+    <!-- Box Slot -->
+    <rect x="100" y="124" width="100" height="12" rx="6" fill="#064e3b" stroke="#34d399" stroke-width="3" />
+    <!-- Ballot Paper Entering Slot -->
+    <path d="M110 50 L190 50 L190 124 L110 124 Z" fill="#ffffff" stroke="#e2e8f0" stroke-width="4" rx="4" />
+    <!-- Checkmark on Ballot Paper -->
+    <path d="M128 85 L145 102 L175 68" fill="none" stroke="#059669" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+    <!-- Number 1 or Badge -->
+    <circle cx="150" cy="210" r="38" fill="url(#gold)" />
+    <text x="150" y="224" font-family="system-ui, -apple-system, sans-serif" font-size="42" font-weight="900" fill="#064e3b" text-anchor="middle">1</text>
+  </g>
+</svg>

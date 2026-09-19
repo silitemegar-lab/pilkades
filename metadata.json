@@ -1,0 +1,6 @@
+{
+  "name": "Pilkades Tim Kemenangan Ahmad Latif Usman",
+  "description": "Aplikasi koordinasi relawan, input dan verifikasi DPT, kunci & gembok pemilih, serta pemantauan suara real-time Pilkades Ahmad Latif Usman.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
